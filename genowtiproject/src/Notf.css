@@ -1,0 +1,27 @@
+#circle 
+{
+    border:1px solid black;
+    border-radius:20px;
+    height:200px;
+    width:233px;
+    margin-top:-300px;
+    border-top:none;
+    animation:animated 2s infinite;
+    border-bottom: none;
+}
+@keyframes animated {
+      
+      0%
+      {
+          border-color:#c2c3c4;
+          transform: translateY(20px); 
+      }
+      50%
+      {
+         border-color:#989a9c;
+      }
+      100%
+      {
+         border-color:#616263;
+      }
+}

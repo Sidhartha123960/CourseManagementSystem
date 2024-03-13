@@ -1,0 +1,135 @@
+#courseout
+{
+    border: 1px solid #ded7d7;
+    border-radius: 0.4rem;
+    height: 200vh;
+    padding: 0px; 
+    border-bottom:none;
+}
+#form
+{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;    
+}
+#singleDiv
+{
+    border: 1px;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.custom-dropdown-item
+{
+    width:45.9rem;
+    color:blue;   
+    margin-left:25px;
+    padding-bottom:19px;  
+    border:1px solid #edece8;
+    border-top:none;
+    border-left:none;
+    border-right:none;  
+} 
+#down1 
+{    
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:10px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;    
+}
+
+#subcardtext
+{
+    border:1px solid #edece8;
+    width:47.5rem;
+    height:45px;  
+    border-right:none; 
+    border-left:none;  
+    padding-left:30px;
+    padding-top:10px;
+    border-bottom:none;
+    cursor: pointer;
+}
+#down2 
+{
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:1.5px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;    
+} 
+#down3 
+{ 
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:1.5px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;       
+}
+
+#down4 
+{
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:1.5px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;       
+}
+#down5 
+{
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:1.5px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;       
+}
+#down6 
+{
+    border: 1px solid #d9d8d6;
+    background-color: #d2d0cb;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    cursor: pointer;
+    margin-top:1.5px;
+    height:40px;
+    padding-right:30px;
+    padding-top:7px;
+    padding-left:50px;
+    font-size:18px;       
+}
