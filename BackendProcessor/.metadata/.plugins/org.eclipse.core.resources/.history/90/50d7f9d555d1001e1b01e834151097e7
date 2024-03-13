@@ -1,0 +1,36 @@
+package com.genowti.backend.LoginDB.service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.genowti.backend.LoginDB.entity.User;
+import com.genowti.backend.LoginDB.repository.Userloginrepository;
+import com.genowti.backend.LoginDB.Encryption.PasswordEncryptionImpl;
+import java.util.*;
+
+
+
+@Service
+public class UserLoginImpl implements UserLoginService
+{
+	
+    @Autowired   
+	private Userloginrepository repo; 
+    
+	@Override
+	public User createuser(User user) 
+	{ 	 
+		PasswordEncryptionImpl psw = new PasswordEncryptionImpl();
+		User both = psw.Passwordprotect(user);
+		return repo.save(both);
+	}
+	
+	@Override
+	public User checkExist(User user) {
+	    Optional<User> existingUser = repo.findById(user.getId());
+	    if (existingUser.isPresent()) {
+	        System.out.println("User already exists");
+	        return existingUser.get();
+	    } else {
+	        return null; // or throw an exception indicating user doesn't exist
+	    }
+	}		
+}
